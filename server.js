@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 
-// Define a port
 const PORT = 3000;
 
 // Define a basic GET route
