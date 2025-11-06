@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // Define a basic GET route
 app.get('/api/hello', (req, res) => {
-  res.json({ message: 'Hello, world Labani' });
+  res.json({ message: 'Hello, world Labani, She is gu khor' });
 });
 
 // Start the server
