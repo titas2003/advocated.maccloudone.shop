@@ -1,0 +1,28 @@
+{
+  "name": "advocated.maccloudone.shop",
+  "version": "1.0.0",
+  "description": "Advocated Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titas2003/advocated.maccloudone.shop.git"
+  },
+  "keywords": [
+    "Advocated"
+  ],
+  "author": "Titas Majumder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/titas2003/advocated.maccloudone.shop/issues"
+  },
+  "homepage": "https://github.com/titas2003/advocated.maccloudone.shop#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.10"
+  }
+}
