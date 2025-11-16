@@ -30,10 +30,10 @@ metadata:
   labels:
     app: jen-kube
 spec:
-  type: nodeport
+  type: NodePort
   selector:
     app: jen-kube
   ports:
     - port: 3000
       targetPort: 3000
-      nodeport: 30030
+      nodePort: 30030
