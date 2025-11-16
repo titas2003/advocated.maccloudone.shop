@@ -29,11 +29,11 @@ metadata:
   name: jen-kube-001
   labels:
     app: jen-kube
-  spec:
-    type: nodeport
-    selector:
-      app: jen-kube
-    ports:
-      - port: 3000
-        targetPort: 3000
-        NodePort: 30080
+spec:
+  type: nodeport
+  selector:
+    app: jen-kube
+  ports:
+    - port: 3000
+      targetPort: 3000
+      NodePort: 30080
