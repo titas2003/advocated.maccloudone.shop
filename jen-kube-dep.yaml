@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-Kind: Deployment
+kind: Deployment
 metadata:
   name: jen-kube-001
   namespace: test-namespace
@@ -11,7 +11,7 @@ spec:
       app: jen-kube
   replicas: 2
   template:
-    metadate:
+    metadata:
       labels: 
         app: jen-kube
     spec:
@@ -20,7 +20,7 @@ spec:
           image: titas2003/jen-kube-proj:v1.0.13
           ports:
             - containerPort: 3000
-              imagePullPolicy: Always
+          imagePullPolicy: Always
 
 ---
 apiVersion: v1
@@ -30,7 +30,7 @@ metadata:
   labels:
     app: jen-kube
   spec:
-    type: NodePort
+    type: nodeport
     selector:
       app: jen-kube
     ports:
