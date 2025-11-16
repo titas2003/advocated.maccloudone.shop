@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: jen-kube-001
-          image: titas2003/jen-kube-proj:v1.0.13
+          image: titas2003/jen-kube-proj:latest
           ports:
             - containerPort: 3000
           imagePullPolicy: Always
