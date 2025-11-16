@@ -36,4 +36,4 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
-      nodeport: 3080
+      nodeport: 30030
